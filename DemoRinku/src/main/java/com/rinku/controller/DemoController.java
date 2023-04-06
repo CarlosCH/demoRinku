@@ -18,7 +18,7 @@ public class DemoController{
 	public String greeting(@RequestParam(name="name",required=false,defaultValue="world") String name,Model model){
 		//logica
 		Empleado emp = new Empleado();
-		emp.setIdRole(0);
+	//	emp.setIdRole(0);
 		emp.setMes(0);
 		emp.setNombre("CArlos Test");
 		emp.setNumEntregas(0);
